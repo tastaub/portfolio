@@ -1,0 +1,139 @@
+body  {
+    background-color: rgba(59, 58, 59, 0.675);
+    width: 100%;
+}
+
+.header  {
+    margin-bottom: 5px;
+}
+
+.header-name  {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#img-header  {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+.header-links  {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ i  {
+     margin: 5px;
+ }
+
+ img  {
+     width: 100%;
+}
+
+h3  {
+    color: rgb(100, 14, 191);
+    text-shadow: 1px 1px rgb(23, 2, 25);
+    font-weight: bold;
+    font-family: 'Syncopate', sans-serif;
+    background-color: rgba(255, 255, 255, 0.394);
+    border-radius: 20px;
+}
+
+h4  {
+    color: rgb(100, 14, 191);
+    text-shadow: 1px 1px rgb(23, 2, 25);
+    font-weight: bold;
+    font-family: 'Syncopate', sans-serif;
+}
+
+#collapse,
+#links  {
+    color:  rgb(100, 14, 191);
+}
+
+#collapse:hover,
+#links:hover  {
+    color: rgb(173, 108, 243);
+}
+
+#nav-name  {
+    color: rgb(100, 14, 191);
+    font-family: 'Syncopate', sans-serif;
+}
+#social-link  {
+    color: rgb(100, 14, 191);
+}
+#nav-name:hover,
+#social-link:hover  {
+    color: rgb(157, 84, 236);
+}
+
+#navbar  {
+    border-bottom: 1px solid rgb(100, 14, 191);
+    background-color: rgb(39, 37, 39);
+}
+
+.modal-header,
+.modal-footer  {
+    background-color: rgb(39, 37, 39);
+    color: rgb(100, 14, 191);
+}
+
+.modal-body  {
+    background-color: rgba(105, 105, 105, 0.675);
+}
+#mail,
+#close  {
+    color: rgb(173, 108, 243);
+}
+#mail:hover  {
+    color: rgb(100, 14, 191);
+}
+
+.aboutHead  {
+    text-align: center;
+}
+
+.about-body  {
+    background-color: #fff;
+    padding: 15px;
+    
+}
+
+#myImage  {
+    height: 80px;
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+video  {
+    padding: 15px;
+    width: 100%;
+}
+
+label,
+p  {
+    font-family: 'Puritan', sans-serif;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(39, 37, 39);
+    color: rgb(100, 14, 191);
+    text-align: center;
+    font-family: 'Syncopate', sans-serif;
+    margin-top: 15px;
+    
+}
+
+
+
+
+

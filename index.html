@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Thomas Staub</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Puritan|Syncopate" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" id="collapse">
+              <span class="far fa-caret-square-down"></span>
+            </button>
+            <a class="navbar-brand" href="#" id="nav-name">Thomas Staub</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a data-toggle="modal" data-target="#aboutModal"><i class="fas fa-info-circle fa-lg" id="social-link"></i></a></li>
+                  <li><a target="blank" href="https://www.linkedin.com/in/thomas-staub-1a64ab51/"><i class="fab fa-linkedin-in fa-lg" id="social-link"></i></a></li>
+                  <li><a target="blank" href="https://github.com/tastaub"><i class="fab fa-github fa-lg" id="social-link"></i></a></li>
+                  <li><a data-toggle="modal" data-target="#contactModal" id="contact"><i class="fas fa-comments fa-lg" id="social-link"></i></a></li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+        <!-- <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid" id="navbar">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="#" id="nav-name">Thomas Staub</a>
+                    <a class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="fas fa-chevron-circle-down"></span>
+                    </a>
+                  </div>
+                 
+                  <div class="collapse navbar-collapse" id="navbar">
+                       
+                  </div>
+                 
+                </div>
+              </nav> -->
+ 
+              <div id="contactModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                        <a type="button" class="close" data-dismiss="modal" id="close"><i class="fas fa-times-circle"></i></a>
+                        <h4 class="modal-title">Contact Me</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="text" class="form-control" id="email">
+                      </div>
+                      <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <a type="button" data-dismiss="modal" id="mail"><i class="far fa-envelope fa-lg"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+
+                  <div id="aboutModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                      
+                          <!-- Modal content-->
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" id="close"><i class="fas fa-times-circle"></i></button>
+                              <h4 class="modal-title">Dev Bio</h4>
+                            </div>
+                            <div class="modal-body">
+                              <div class="aboutHead">
+                                  <img src="assets/images/tas.png" class="img-responsive" id="myImage">
+                                  <h3>Thomas Staub</h3>
+                              </div>
+                                  <div class="about-body">
+                                      <p>
+                                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                     </p>
+              
+                                  </div>
+                                  <div>
+                                      <video width="100%" height="240" controls>
+                                          <source src="movie.mp4" type="video/mp4">
+                                        </video>
+                                  </div>
+                                  
+                              
+                              
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal" id="close">Close</button>
+                            </div>
+                          </div>
+                      
+                        </div>
+                      </div>
+
+
+    <div class="container" id="carousel">
+        <div class="row">
+            
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+              <li data-target="#myCarousel" data-slide-to="5"></li>
+              <li data-target="#myCarousel" data-slide-to="6"></li>
+            </ol>
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="parks.png" alt="Los Angeles">
+                <div class="carousel-caption d-none d-md-block">
+                        <h3>Parks and Rec Trivia</h3>
+                        
+                        <div class="col-xs-12">
+                                <a target="blank" href="https://tastaub.github.io/parksNrec/" id="links"><i class="fas fa-external-link-square-alt fa-2x"></i></a>
+                                <a target="blank" href="https://github.com/tastaub/parksNrec" id="links"><i class="fab fa-github fa-2x"></i></a>
+                            </div>
+                        
+                    </div>
+              </div>
+          
+              <div class="item">
+                <img src="travel.jpg" alt="Chicago">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>I'm New Here</h3>
+                    <div class="col-xs-12">
+                            <a target="blank" href="https://tastaub.github.io/team_eich_project/" id="links"><i class="fas fa-external-link-square-alt fa-2x"></i></a>
+                            <a target="blank" href="https://github.com/tastaub/team_eich_project" id="links"><i class="fab fa-github fa-2x"></i></a>
+                        </div>
+                    
+                </div>
+              </div>
+          
+              <div class="item">
+                <img src="arrested.jpg" alt="New York">
+                <div class="carousel-caption d-none d-md-block">
+                        <h3>Bluth Hangman</h3>
+                       
+                        <div class="col-xs-12">
+                                <a target="blank" href="https://tastaub.github.io/bluth_hangman/hangman.html" id="links"><i class="fas fa-external-link-square-alt fa-2x"></i></a>
+                                <a target="blank" href="https://github.com/tastaub/bluth_hangman" id="links"><i class="fab fa-github fa-2x"></i></a>
+                            </div>
+                        
+                    </div>
+              </div>
+              <div class="item">
+                    <img src="train.jpeg" alt="New York">
+                    <div class="carousel-caption d-none d-md-block">
+                            <h3>Train Scheduler</h3>
+                          
+                            <div class="col-xs-12">
+                                    <a target="blank" href="https://tastaub.github.io/firebase_train/" id="links"><i class="fas fa-external-link-square-alt fa-2x"></i></a>
+                                    <a target="blank" href="https://github.com/tastaub/firebase_train" id="links"><i class="fab fa-github fa-2x"></i></a>
+                                </div>
+                            
+                        </div>
+                  </div>
+                  <div class="item">
+                        <img src="pawn.jpg" alt="New York">
+                        <div class="carousel-caption d-none d-md-block">
+                                <h3>Pawn Shop</h3>
+                                
+                                <div class="col-xs-12">
+                                        <a target="blank" href="https://tastaub.github.io/pawn_shop" id="links"><i class="fas fa-external-link-square-alt fa-2x"></i></a>
+                                        <a target="blank" href="https://github.com/tastaub/pawn_shop" id="links"><i class="fab fa-github fa-2x"></i></a>
+                                    </div>
+                                
+                            </div>
+                      </div>
+                      <div class="item">
+                            <img src="nba.jpg" alt="New York">
+                            <div class="carousel-caption d-none d-md-block">
+                                    <h3>NBA Giphy Search</h3>
+                                    
+                                    <div class="col-xs-12">
+                                            <a target="blank" href="https://tastaub.github.io/giphy_search/" id="links"><i class="fas fa-external-link-square-alt fa-2x"></i></a>
+                                            <a target="blank" href="https://github.com/tastaub/giphy_search" id="links"><i class="fab fa-github fa-2x"></i></a>
+                                        </div>
+                                    
+                                </div>
+                          </div>
+                          <div class="item">
+                            <img src="ai.png" alt="New York">
+                            <div class="carousel-caption d-none d-md-block">
+                                    <h3>Liri Bot</h3>
+                                    
+                                    <div class="col-xs-12">
+                                            <a target="blank" href="https://tastaub.github.io/giphy_search/" id="links"><i class="fas fa-external-link-square-alt fa-2x"></i></a>
+                                            <a target="blank" href="https://github.com/tastaub/giphy_search" id="links"><i class="fab fa-github fa-2x"></i></a>
+                                        </div>
+                                    
+                                </div>
+                          </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" id="links"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" id="links"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+    </div>
+
+    
+</body>
+
+<div class="footer">
+  Copyright Thomas Staub
+</div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
